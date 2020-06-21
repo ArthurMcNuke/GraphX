@@ -1,0 +1,10 @@
+all:libgraphx.so
+
+libgraphx.so: graphx.o graphxwin.o
+	g++ -shared -Wl,-soname,libgraphx.so -o libgraphx.so graphxwin.o graphx.o -lc -lX11 -pthread
+
+graphx.o: graphx.cpp
+	g++ -fPIC -c graphx.cpp
+
+graphxwin.o: graphxwin.cpp
+	g++ -fPIC -c graphxwin.cpp
