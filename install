@@ -4,5 +4,4 @@ cd Source
 make -f graphxmake
 sudo mv libgraphx.so /usr/local/lib
 sudo cp graphx.h /usr/local/include
-sudo cp graphxwin.h /usr/local/include
 sudo ldconfig
