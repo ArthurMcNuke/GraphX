@@ -1,8 +1,6 @@
 #ifndef GRAPHLIB_H
 #define GRAPHLIB_H
 
-#include "graphxwin.h"
-
 #include <sys/wait.h>
 #include <stdlib.h>
 
