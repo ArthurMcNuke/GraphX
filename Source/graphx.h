@@ -3,6 +3,7 @@
 
 #include <sys/wait.h>
 #include <stdlib.h>
+#include <X11/Xlib.h>
 
 #define MAIN_FIFO "/tmp/graphxfifo"
 #define KEY_FIFO "/tmp/keyfifo"
